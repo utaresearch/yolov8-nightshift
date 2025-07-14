@@ -1,4 +1,6 @@
+# yolov8
 # What is this
+
 This is from https://github.com/mpolinowski/yolov8-nightshift/
 
 He trained both a YOLOv8n and YOLOv8s model for 1) only RGB images, 2) only IR images and 3) for the combined image dataset.
@@ -19,7 +21,9 @@ Put it in ./datasets
 
 ## jupyter notebook --notebook-dir=`pwd`
 
-## Open "http://localhost:8890" in a browser and type in the token from the command line
+## Open "http://localhost:8890..." in a browser 
+
+The port number may change, don't worry about it.  Just copy & paste the line into a browser.
 
 If using WSL, you can see files in Windows via \\wsl.localhost\Ubuntu-24.04
 
@@ -28,3 +32,24 @@ If using WSL, you can see files in Windows via \\wsl.localhost\Ubuntu-24.04
 Repo assumes lables to be in ...
 Not there.
 Possibly in https://www.kaggle.com/datasets/samdazel/teledyne-flir-adas-thermal-dataset-v2?resource=download or https://www.kaggle.com/code/kushagraborse/fusing-method-on-yolo-and-detection/notebook
+
+---
+# brainchip
+# What is this
+
+Demonstration of BrainChip neuromorphic computing
+
+# How to run
+
+## Get conda evnt. set up: `conda activate brainchip`
+
+## jupyter notebook --notebook-dir=`pwd`
+
+## Open "http://localhost:8890..." line in a browser
+
+The port number may change, don't worry about it.  Just copy & paste the line into a browser.
+
+If using WSL, you can see files in Windows via \\wsl.localhost\Ubuntu-24.04
+
+## Notes
+

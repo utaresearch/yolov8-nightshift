@@ -1,4 +1,4 @@
-name: brainchip
+name: brainchip_vanilla
 channels:
   - defaults
 dependencies:
@@ -11,9 +11,7 @@ dependencies:
   - async-lru=2.0.4=py311h06a4308_0
   - babel=2.16.0=py311h06a4308_0
   - beautifulsoup4=4.12.3=py311h06a4308_0
-  - blas=1.0=mkl
   - bleach=6.2.0=py311h06a4308_0
-  - brotli-python=1.0.9=py311h6a678d5_9
   - brotlicffi=1.0.9.2=py311h6a678d5_1
   - bzip2=1.0.8=h5eee18b_6
   - c-ares=1.19.1=h5eee18b_0
@@ -31,7 +29,6 @@ dependencies:
   - httpcore=1.0.9=py311h06a4308_0
   - httpx=0.28.1=py311h06a4308_0
   - icu=73.1=h6a678d5_0
-  - intel-openmp=2023.1.0=hdb19cb5_46306
   - ipykernel=6.29.5=py311h06a4308_1
   - ipython=9.1.0=py311h06a4308_0
   - ipython_pygments_lexers=1.1.1=py311h06a4308_0
@@ -52,21 +49,15 @@ dependencies:
   - jupyterlab_pygments=0.3.0=py311h06a4308_0
   - jupyterlab_server=2.27.3=py311h06a4308_0
   - jupyterlab_widgets=3.0.15=py311h06a4308_0
-  - kiwisolver=1.4.8=py311h6a678d5_0
   - krb5=1.20.1=h143b758_1
-  - lcms2=2.16=h92b89f2_1
   - ld_impl_linux-64=2.40=h12ee557_0
-  - lerc=4.0.0=h6a678d5_0
   - libabseil=20250127.0=cxx17_h6a678d5_0
   - libcups=2.4.2=h2d74bed_1
   - libcurl=8.12.1=hc9e6f67_0
-  - libdeflate=1.22=h5eee18b_0
   - libedit=3.1.20230828=h5eee18b_0
   - libev=4.33=h7f8727e_1
   - libffi=3.4.4=h6a678d5_1
   - libgcc-ng=11.2.0=h1234567_1
-  - libgfortran-ng=11.2.0=h00389a5_1
-  - libgfortran5=11.2.0=h1234567_1
   - libglib=2.84.2=h37c7471_0
   - libgomp=11.2.0=h1234567_1
   - libiconv=1.16=h5eee18b_3
@@ -77,21 +68,14 @@ dependencies:
   - libsodium=1.0.18=h7b6447c_0
   - libssh2=1.11.1=h251f7ec_0
   - libstdcxx-ng=11.2.0=h1234567_1
-  - libtiff=4.7.0=hde9077f_0
   - libuuid=1.41.5=h5eee18b_0
-  - libwebp-base=1.3.2=h5eee18b_1
   - libxcb=1.17.0=h9b100fa_0
   - libxkbcommon=1.9.1=h69220b7_0
   - libxml2=2.13.8=hfdd30dd_0
   - lz4-c=1.9.4=h6a678d5_1
   - markupsafe=3.0.2=py311h5eee18b_0
-  - matplotlib-base=3.10.0=py311hbfdbfaf_0
   - matplotlib-inline=0.1.6=py311h06a4308_0
   - mistune=3.1.2=py311h06a4308_0
-  - mkl=2023.1.0=h213fc3f_46344
-  - mkl-service=2.4.0=py311h5eee18b_2
-  - mkl_fft=1.3.11=py311h5eee18b_0
-  - mkl_random=1.2.8=py311ha02d727_0
   - mysql=8.4.0=h721767e_2
   - nbclient=0.10.2=py311h06a4308_0
   - nbconvert=7.16.6=py311h06a4308_0
@@ -102,8 +86,6 @@ dependencies:
   - nest-asyncio=1.6.0=py311h06a4308_0
   - notebook=7.4.4=py311h06a4308_0
   - notebook-shim=0.2.4=py311h06a4308_0
-  - numpy-base=2.0.1=py311hf175353_1
-  - openjpeg=2.5.2=h0d4d230_1
   - openldap=2.6.4=h42fbc30_0
   - openssl=3.0.16=h5eee18b_0
   - overrides=7.4.0=py311h06a4308_0
@@ -119,6 +101,7 @@ dependencies:
   - pthread-stubs=0.3=h0ce48e5_1
   - ptyprocess=0.7.0=pyhd3eb1b0_2
   - pure_eval=0.2.2=pyhd3eb1b0_0
+  - pygments=2.19.1=py311h06a4308_0
   - pyqt=6.7.1=py311h6a678d5_1
   - pyqt6-sip=13.9.1=py311h5eee18b_1
   - pysocks=1.7.1=py311h06a4308_0
@@ -148,14 +131,12 @@ dependencies:
   - soupsieve=2.5=py311h06a4308_0
   - sqlite=3.45.3=h5eee18b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
-  - tbb=2021.8.0=hdb19cb5_0
   - terminado=0.17.1=py311h06a4308_0
   - tinycss2=1.4.0=py311h06a4308_0
   - tk=8.6.14=h993c535_1
   - tornado=6.5.1=py311h5eee18b_0
   - traitlets=5.14.3=py311h06a4308_0
   - typing_extensions=4.12.2=py311h06a4308_0
-  - unicodedata2=15.1.0=py311h5eee18b_1
   - urllib3=2.5.0=py311h06a4308_0
   - wcwidth=0.2.13=py311h06a4308_0
   - webencodings=0.5.1=py311h06a4308_1
@@ -212,36 +193,22 @@ dependencies:
       - jsonschema==4.24.0
       - jsonschema-specifications==2025.4.1
       - keras==2.15.0
+      - kiwisolver==1.4.8
       - lazy-loader==0.4
       - libclang==18.1.1
       - librosa==0.11.0
       - llvmlite==0.44.0
       - markdown==3.8.2
-      - markdown-it-py==3.0.0
       - matplotlib==3.8.4
-      - mdurl==0.1.2
       - mir-eval==0.8.2
       - ml-dtypes==0.3.2
       - mpmath==1.3.0
       - msgpack==1.1.1
       - mtcnn==0.1.1
       - multivolumefile==0.2.3
-      - namex==0.1.0
       - networkx==3.5
       - numba==0.61.2
       - numpy==1.26.4
-      - nvidia-cublas-cu12==12.5.3.2
-      - nvidia-cuda-cupti-cu12==12.5.82
-      - nvidia-cuda-nvcc-cu12==12.5.82
-      - nvidia-cuda-nvrtc-cu12==12.5.82
-      - nvidia-cuda-runtime-cu12==12.5.82
-      - nvidia-cudnn-cu12==9.3.0.75
-      - nvidia-cufft-cu12==11.2.3.61
-      - nvidia-curand-cu12==10.3.6.82
-      - nvidia-cusolver-cu12==11.6.3.83
-      - nvidia-cusparse-cu12==12.5.1.3
-      - nvidia-nccl-cu12==2.23.4
-      - nvidia-nvjitlink-cu12==12.5.82
       - oauthlib==3.3.1
       - onnx==1.16.1
       - onnxruntime==1.19.2
@@ -249,7 +216,6 @@ dependencies:
       - onnxscript==0.2.5
       - opencv-python==4.11.0.86
       - opt-einsum==3.4.0
-      - optree==0.16.0
       - packaging==25.0
       - pandas==2.3.1
       - pbr==6.1.1
@@ -264,7 +230,6 @@ dependencies:
       - pybcj==1.0.6
       - pycparser==2.22
       - pycryptodomex==3.23.0
-      - pygments==2.19.2
       - pyparsing==3.2.3
       - pyppmd==1.2.0
       - pytz==2025.2
@@ -272,7 +237,6 @@ dependencies:
       - quantizeml==0.17.1
       - referencing==0.36.2
       - requests-oauthlib==2.0.0
-      - rich==14.0.0
       - rpds-py==0.26.0
       - rsa==4.9.1
       - scikit-image==0.25.2
@@ -301,4 +265,4 @@ dependencies:
       - tzdata==2025.2
       - werkzeug==3.1.3
       - wrapt==1.14.1
-prefix: /home/schelian/anaconda3/envs/brainchip
+prefix: /home/schelian/anaconda3/envs/brainchip_vanilla
